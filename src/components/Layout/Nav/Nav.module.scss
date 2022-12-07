@@ -1,0 +1,28 @@
+.nav {
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &::marker {
+      color: white;
+    }
+
+    span {
+      margin-left: 65%;
+      font-size: 1.5rem;
+
+      &.disappear {
+        color: transparent;
+      }
+
+      &.default {
+        color: black;
+      }
+    }
+  }
+}

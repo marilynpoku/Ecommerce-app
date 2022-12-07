@@ -1,0 +1,36 @@
+.wishlist {
+  &__heading {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 0rem 0rem 3rem 0rem;
+
+    @media screen and (max-width: 56.25em) {
+      padding: 0rem 0rem 3rem 3rem;
+    }
+
+    @media screen and (max-width: 37em) {
+      padding: 0rem 0rem 3rem 3rem;
+    }
+  }
+
+  &__empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60%;
+    font-size: 1.5rem;
+
+    button {
+      text-transform: uppercase;
+      margin-top: 3%;
+      font-weight: bold;
+      background: none;
+      border: none;
+      text-decoration: underline;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

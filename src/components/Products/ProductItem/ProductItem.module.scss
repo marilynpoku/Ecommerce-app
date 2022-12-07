@@ -1,0 +1,43 @@
+.product {
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3%;
+    width: 25%;
+    height: 80vh;
+    border: 0.5px solid black;
+
+    @media screen and (max-width: 75em) {
+      width: 33.33%;
+    }
+
+    @media screen and (max-width: 56.25em) {
+      width: 50%;
+    }
+
+    @media screen and (max-width: 37em) {
+      width: 100%;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    padding: 10%;
+    height: 50%;
+  }
+
+  &__detail {
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+  &__title {
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+  }
+
+  &__price {
+    font-size: 1.3rem;
+  }
+}

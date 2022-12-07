@@ -1,0 +1,16 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+
+  &__primary-heading {
+    font-size: 3.5rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    padding: 2rem, 0rem;
+  }
+}

@@ -1,0 +1,59 @@
+.product {
+  &__card {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+    padding: 5%;
+
+    @media screen and (max-width: 37em) {
+      border: none;
+      border-bottom: 1px solid black;
+    }
+  }
+
+  &__image {
+    max-width: 30%;
+    height: 20vh;
+    padding: 5%;
+
+    @media screen and (max-width: 75em) {
+      height: 30vh;
+    }
+
+    @media screen and (max-width: 56.25em) {
+      height: 45vh;
+    }
+
+    @media screen and (max-width: 37em) {
+      height: 30vh;
+    }
+  }
+
+  &__detail {
+    font-size: 1.2rem;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+    letter-spacing: 1px;
+  }
+
+  &__action {
+    align-self: flex-end;
+    margin-left: auto;
+  }
+
+  &__btn {
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 2rem 0rem;
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
