@@ -13,7 +13,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd e-commerce-project
+  cd ecommerce-app
 ```
 
 Install dependencies
